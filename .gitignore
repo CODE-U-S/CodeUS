@@ -1,0 +1,60 @@
+node_modules
+/dist
+
+packages/**/node_modules
+
+# Node modules
+node_modules/
+
+# Yarn v1
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'yarn build'
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Debug
+.vscode/*
+.idea/
+
+# MacOS files
+.DS_Store
+
+# IDE specific
+.vscode/
+.idea/
+
+# Testing
+coverage/
+*.lcov

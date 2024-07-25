@@ -1,0 +1,14 @@
+{
+  "name": "code-us",
+  "private": true,
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace frontend dev",
+    "start:backend": "yarn workspace backend start",
+    "start": "echo \"Please use 'yarn start:frontend' to start the frontend and 'yarn start:backend' to start the backend.\""
+  }
+}
+
