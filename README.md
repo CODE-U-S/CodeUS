@@ -78,7 +78,7 @@ yarn install
 
 프론트엔드 서버를 실행하려면 다음 명령어를 사용합니다:
 
-```bash
+```bash 
 yarn start:frontend
 ```
 
