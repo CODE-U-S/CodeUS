@@ -1,5 +1,4 @@
-// src/context/AppContext.tsx
-import React, { createContext, useState, ReactNode } from 'react';
+import { createContext, useState, ReactNode } from 'react';
 
 interface AppContextType {
     user: string | null;
@@ -8,12 +7,16 @@ interface AppContextType {
 
 export const AppContext = createContext<AppContextType | undefined>(undefined);
 
-export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+interface AppProviderProps {
+    children: ReactNode;
+}
+
+export const AppProvider = ({ children }: AppProviderProps): JSX.Element => {
     const [user, setUser] = useState<string | null>(null);
 
     return (
-        <AppContext.Provider value={{ user, setUser }}>
-            {children}
-        </AppContext.Provider>
+      <AppContext.Provider value={{ user, setUser }}>
+          {children}
+      </AppContext.Provider>
     );
 };
