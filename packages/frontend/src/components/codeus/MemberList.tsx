@@ -5,7 +5,7 @@ const MemberList = (): JSX.Element => {
   ];
 
   return (
-    <section className="py-8 px-4 text-center bg-purple-400">
+    <section className="py-8 px-4 text-center bg-neutral-900">
       <h2 className="text-3xl font-bold mb-4">Our Members</h2>
       <div className="flex flex-wrap justify-center">
         {members.map((member, index) => (
