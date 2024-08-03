@@ -12,7 +12,7 @@ const Footer = (): JSX.Element => {
           {/* 중앙 텍스트 */}
           <div className="text-left flex-grow ml-20">
             <p>미림마이스터고등학교 전공자율동아리</p>
-            <p className="mb-3">Email: codeu24@gmail.com</p>
+            <p className="mb-3">Email: codeus24@gmail.com</p>
             <p className="text-[#B5B5B5]">Copyright &copy; 2024 CODEUS Inc. All Rights Reserved</p>
           </div>
 
@@ -20,7 +20,7 @@ const Footer = (): JSX.Element => {
           {/* 오른쪽 연도 및 정보 */}
           <div className="text-right">
             <p className="text-xs">2024 Ver. Created By 1기</p>
-            <hr className="my-3 border-white" style={{ width: '200%', marginLeft: '-100%' }} />
+            <hr className="my-3 w-60 border-white" />
             <div className="flex justify-end space-x-4 mt-2">
               <a href="https://instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
                 <img src={instagramLogo} alt="Instagram" className="h-6 w-auto" />
