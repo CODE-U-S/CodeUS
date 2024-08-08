@@ -9,7 +9,7 @@ const MemberList = (): JSX.Element => {
             className="py-8 px-4 text-center bg-black"
             style={{ height: '50vh' }}
         >
-            <h2 className="text-3xl font-bold mb-4 text-white">동아리 부원 소개</h2>
+            <h2 className="text-3xl font-bold mb-4 text-white">Q. 코더스는 어때요?</h2>
             <div className="flex flex-wrap justify-center items-center h-full">
                 {members.map((member, index) => (
                     <div key={index} className="m-4 p-4 bg-blue-950 shadow-md rounded">
