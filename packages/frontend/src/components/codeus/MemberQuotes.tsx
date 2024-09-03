@@ -1,4 +1,5 @@
-const MemberList = (): JSX.Element => {
+// 각 멤버의 한마디
+const Memberquotes = (): JSX.Element => {
     const members = [
         { name: 'John Doe', role: 'President' },
         { name: 'Jane Smith', role: 'Vice President' },
@@ -22,4 +23,4 @@ const MemberList = (): JSX.Element => {
     );
 };
 
-export default MemberList;
+export default Memberquotes;

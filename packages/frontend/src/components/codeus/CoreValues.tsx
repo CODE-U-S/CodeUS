@@ -1,5 +1,5 @@
-// 동아리 소개
-const MemberList = (): JSX.Element => {
+// 핵심가치
+const CoreValues = (): JSX.Element => {
     const members = [
         { name: 'John Doe', role: 'President' },
         { name: 'Jane Smith', role: 'Vice President' },
@@ -23,4 +23,4 @@ const MemberList = (): JSX.Element => {
     );
 };
 
-export default MemberList;
+export default CoreValues;

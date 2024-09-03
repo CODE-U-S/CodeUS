@@ -1,5 +1,5 @@
 // 프로젝트 결과물
-const MemberList = (): JSX.Element => {
+const ProjectResults = (): JSX.Element => {
     const members = [
         { name: 'John Doe', role: 'President' },
         { name: 'Jane Smith', role: 'Vice President' },
@@ -23,4 +23,4 @@ const MemberList = (): JSX.Element => {
     );
 };
 
-export default MemberList;
+export default ProjectResults;

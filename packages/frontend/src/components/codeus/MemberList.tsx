@@ -1,3 +1,4 @@
+// 동아리 부원소개
 const MemberList = (): JSX.Element => {
     const members = [
         { name: 'John Doe', role: 'President' },
