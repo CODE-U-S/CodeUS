@@ -50,8 +50,8 @@ const JoinUs = (): JSX.Element => {
       }}
     >
       <div className="relative" style={{ top: "10vh" }}>
-        <h2 className="text-2xl mb-4 text-white">실무의 길로, 함께 나아가는 IT 동아리</h2>
-        <p className="text-5xl font-extrabold mb-20 text-white">
+        <h2 className="text03-custom">실무의 길로, 함께 나아가는 IT 동아리</h2>
+        <p className="text01-custom">
           <span className="text-yellow-400">4</span>기 멤버를 찾습니다
         </p>
         <button className="mt-4">지원하기</button>
